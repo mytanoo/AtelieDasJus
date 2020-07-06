@@ -1,0 +1,135 @@
+.bloco-dois {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.bloco-tois {
+    margin-top: 30px;
+}
+
+.img-rodapé {
+    width: 400px;
+}
+
+.logotipo{
+    float: left;
+    min-width: 300px;
+}
+
+footer { 
+    padding: 20px 0;
+    background-color: rgb(215, 182, 177);
+}
+
+body {
+    background-color: rgb(131, 152, 147);
+    background-image: url('coelhaTorta.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    
+}
+
+#menu {
+    background-color: rgb(152, 108, 121);    
+}
+
+#menu ul li a {
+    color: rgb(271, 219, 218);
+}
+
+.envelope {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+#menu ul {
+    padding: 0 150px;
+}
+
+h2 {
+    color: rgb(271, 219, 218);
+}
+
+.contraste {
+    background-color: rgb(152, 108, 121);
+        
+}
+
+.titulo {
+    color: rgb(131, 152, 147);
+}
+
+#bordaChata {
+    border: 0px;
+}
+
+.agulha {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-top: 0px;
+}
+
+#portfolio {
+    margin-bottom: 0px;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.coluna1 {
+    text-align: center;
+}
+
+#carouselExampleCaptions  h5, #carouselExampleCaptions p{
+    text-shadow: 2px 2px 8px #000000;
+}
+
+.card{
+    height: 100%;
+}
+
+.card-body{
+    display: table;
+   margin: auto;
+}
+
+#navfot p a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#navfot p a:hover{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px #000000;
+}
+#navbarSupportedContent ul li a:hover{
+    text-shadow: 2px 2px 5px #000000;
+    text-decoration: none;
+    
+}
+.col-md-4{
+    display: flex;
+    padding: 5px;
+    
+}
+#imgju , #imgjosi{
+    margin: auto;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 3rem;
+}
+#textport{
+    margin-top: 15px;
+    color: white;
+}
+#confira{
+    text-decoration: none;
+    color: rgb(131, 152, 147);
+}

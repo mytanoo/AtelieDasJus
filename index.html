@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier das Jous</title>
+
+    <link rel="icon" href="boneca.png" type="image/png" sizes="16x16">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+    <!--Css meu -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="container">
+        <nav id="menu" class="navbar navbar-expand-lg">
+
+          <div id="logotipo">
+              <a href=""><img src="logo.png" alt="Logo" width="100%" ></a>
+            </div>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#primeiro">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://api.whatsapp.com/send?1=pt_BR&phone=5548996039839" target="_blank">Encomendas/Contato</a>
+                    </li>
+                    
+                </ul>
+
+                    <span><a href="https://www.instagram.com/atelierdasjous"><img src="instaCinzaClaro.png" alt="ícone do instagram" width="35px" height="35px"></a></span>
+                    <span class="envelope"> <a href="mailto:atelierdajou@gmail.com?subject=Fale Conosco"><img src="emailCinzaClaro.png" alt="ícone de e-mail" width="35px" height="35px"></a></span>
+                    <span><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5548996039839"> <img src="whatsCinzaClaro.png" alt="ícone do whatsapp" width="35px" height="35px"></a></span>
+            </div>
+            
+        </nav>
+
+    <!-- Carrosel -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="boneco_neve.jpg" class="d-block w-100" alt="boneco de neve de crochê">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Crochê na sua decoração</h5>
+              <p>Em todas as ocasiões especiais!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="atelier-2.jpg" class="d-block w-100" alt="bailarina de crochê">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Crochê para significar</h5>
+              <p>O presente perfeito para quem se identifica com fofuras</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="boneca.jpg" class="d-block w-100" alt="boneca de crochê">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Crochê para presentear</h5>
+              <p>Aceitamos encomendas personalizadas!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="atelier-9.jpg" class="d-block w-100" alt="amy winahouse de crochê sobre ukulele">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Crochê para você</h5>
+              <p>Presentei-se com seus personagens preferidos</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Portfolio -->
+    <div class="bloco-dois" id="primeiro">
+      <div class="card text-center" id="bordaChata">
+        <div class="card-header titulo">
+          Atelier das Jous          
+        </div>
+
+        <div class="card-body contraste">
+          <h2 class="card-title" id="portfolio">Portfólio</h2>
+          <h6 class="agulha"><img src="agulhaDirClaro.png" width="30px" height="8px"> <img src="agulhaEsqClaro.png" width="30px" height="8px"><h6>
+          <img class="img-fluid" src="coelhos.jpeg" width="400px" height="400px" alt="coelhos de páscoa de crochê">
+          <p class="card-text" id="textport">Amigurumi é uma expressão japonesa que significa "bicho de pelúcia feito de crochê". Nosso trabalho com amigurumis envolve bichinhos, bonecos personalizados, personagens de filmes e desenhos... o limite é até onde vai a imaginação!</p>
+        </div>
+        <div class="card-footer text-muted">
+          <a href="#segundo" id="confira"> Confira um pouco do nosso trabalho </a>
+        </div>
+      </div>
+    </div>
+
+    
+      <div class="container contraste" id="segundo">
+        <div class="row">
+          <div class="col-sm bloco-dois">
+            <div class="card">
+                <img src="boneco_neve2.jpg" class="card-img-top" alt="boneco de neve de crochê">
+                <div class="card-body">
+                  <h5 class="card-title">Opções de decoração...</h5>
+                  <p class="card-text">Como esse boneco de neve, que fica lindo perto de uma árvore de Natal!</p>
+                  </div>
+              </div>
+        
+          </div>
+          <div class="col-sm bloco-dois contraste">
+            <div class="card">
+                <img src="atelier-13.jpg" class="card-img-top" alt="bruxa de crochê">
+                <div class="card-body">
+                  <h5 class="card-title">Bonequinhas que contam histórias...</h5>
+                  <p class="card-text">Para momentos de contação, liberando a imaginação!</p>
+                </div>
+              </div>
+        
+          </div>
+          <div class="col-sm bloco-dois contraste">
+            <div class="card">
+                <img src="familia.jpeg" class="card-img-top" alt="bonecos de crochê">
+                <div class="card-body">
+                  <h5 class="card-title">Presentes para todos os gostos e idades</h5>
+                  <p class="card-text">Para surpreender uma pessoa querida, ou presentear a si mesmo!</p>
+                </div>
+              </div>
+        
+          </div>
+        </div>
+      </div>
+
+    <!-- Artesãs -->
+    <div class="bloco-dois" id="tpquemsomos">
+      <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="josi.jpg" class="card-img circle" id="imgjosi" alt="artesã josiana">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Essa é a Josi</h5>
+              <p class="card-text">Catarinense da serra, professora aposentada e apaixonada por trabalhos manuais, a Josi já fez tantos cursos de artesanato que já não tem mais espaço em casa para tanto material. Herdou essa paixão da sua mãe, a dona Selma, e transmitiu pra sua filha, a Ju.</p>
+              
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="card mb-3">
+        <div class="row no-gutters">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">E essa é a Ju</h5>
+              <p class="card-text">Catarinense do litoral, igualmente apaixonada por artesanato e criar coisas com as mãos. Tem uma quedinha especial em criar crochê fofinho e geek e uma dificuldade enorme em desapegar de tudo que faz.</p>
+              
+            </div>
+          </div>
+          <div class="col-md-4" >
+            <img src="ju.jpg" class="card-img circle" id="imgju" alt="artesã juliana" >
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- Rodapé -->
+<footer id="contato">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm coluna1">
+                Atendimento
+                <p class="card-text mt-5" >
+                    Fone: (48) 99603-9839 - 99602-2964
+                </p>
+                <p class="card-text">
+                    atelierdajou@gmail.com
+                </p>
+                <p class="card-text">
+                    Florianópolis - SC
+                </p>
+            </div>
+            
+            <div class="col-sm coluna1" id="navfot">
+            Mapa do Site
+            <p class="card-text mt-5" >
+                <a href="#tpquemsomos"> Quem Somos </a>
+            </p>
+            <p class="card-text">
+              <a href="#primeiro"> Portifólio </a>
+            </p>
+            <p class="card-text">
+              <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5548996039839" target="_blank"> Encomendas </a>
+            </p>
+            <p class="card-text">
+              <a href="#menu"> Voltar ao topo</a>
+            </p>
+            </div>
+
+            <div class="col-sm coluna1">
+                Siga-nos
+                <p class="card-text mt-5" >
+                    <a href="https://www.instagram.com/atelierdasjous"><img src="instaPreto.png" alt="ícone do instagram" width="35px" height="35px"></a>
+                    <a href="mailto:atelierdajou@gmail.com?subject=Fale Conosco"><img class="envelope" src="mailPreto.png" alt="ícone de e-mail" width="35px" height="35px"></a>
+                    <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5548996039839"> <img src="whatsPreto.png" alt="ícone do whatsapp" width="35px" height="35px"></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
